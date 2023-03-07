@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
+    
     <footer className="footer p-4 bg-neutral text-neutral-content">
       <div className="items-center grid-flow-col">
         <svg
@@ -45,6 +46,7 @@ const Footer = () => {
         </Link>
       </div>
     </footer>
+    
   );
 };
 

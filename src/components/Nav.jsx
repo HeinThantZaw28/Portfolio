@@ -11,7 +11,7 @@ const Nav = () => {
     setDarkMode(!darkMode);
   };
   return (
-    <div className="my-3">
+    <div className="">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">

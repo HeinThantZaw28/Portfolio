@@ -4,13 +4,14 @@ import Nav from "./Nav";
 
 const NavFooter = ({ children }) => {
   return (
-    <div>
-      <Nav />
-      {children}
-      <div className="bottom-0 absolute w-screen mt-5">
-      <Footer />
+    <div className="">
+      <div className="mb-10">
+        <Nav />
       </div>
-      
+      {children}
+      <div className="mt-44 bottom-0 relative">
+        <Footer />
+      </div>
     </div>
   );
 };
