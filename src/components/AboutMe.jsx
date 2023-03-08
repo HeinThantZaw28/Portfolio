@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <>
       <NavFooter>
-        <div className="md:mr-2">
+      <div className="container mx-auto mt-16">
           <div className="grid md:grid-cols-8 sm:grid-cols-12">
             <div className="md:col-span-1"></div>
             <div className="container mx-auto md:col-span-6 sm:col-span-full">
@@ -39,9 +39,9 @@ const AboutMe = () => {
                 </p>
               </div>
               <hr />
-              <div className="md:grid md:grid-cols-12 mt-2 sm:block">
+              <div className=" text-sm md:grid md:grid-cols-12 mt-2 sm:block">
                 <div className="md:col-span-6 flex">
-                  <div className="justify-between text-white">
+                  <div className="justify-between text-white mr-2">
                     <h1>Birthday :</h1>
                     <h1>Age :</h1>
                     <h1>Address :</h1>
@@ -73,7 +73,7 @@ const AboutMe = () => {
                   </div>
                 </div>
               </div>
-              <div className="md:grid md:grid-cols-12 sm:block mt-2 bg-slate-900 rounded ml-1 mr-1 py-4 px-2">
+              <div className="text-sm md:grid md:grid-cols-12 sm:block mt-2 bg-slate-900 rounded ml-1 mr-1 py-4 px-2">
                 <div className="md:col-span-6 mb-3">
                   <h1 className=" text-2xl text-white mb-2">
                     Programming Skills
@@ -131,11 +131,11 @@ const AboutMe = () => {
                   </div>
                 </div>
               </div>
-              <div className="md:grid md:grid-cols-12 sm:block mt-2 bg-slate-900 rounded ml-1 mr-1 py-4 px-2">
+              <div className="text-sm md:grid md:grid-cols-12 sm:block mt-2 bg-slate-900 rounded ml-1 mr-1 py-4 px-2">
                 <div className="md:col-span-6 mb-3">
                   <h1 className=" text-2xl text-white mb-2">Education</h1>
 
-                  <ul className="steps steps-vertical">
+                  <ul className="steps steps-vertical text-sm">
                     <li className="step step-primary">
                       <div className="flex justify-between gap-4">
                         <p className="">2018-2019</p>
@@ -150,7 +150,7 @@ const AboutMe = () => {
                         <p className="">2019-2020</p>
                         <div className="block text-white text-justify">
                           <p>University of Greenwich</p>
-                          <p className="text-sm">Business Information Technology</p>
+                          <p>Business Information Technology</p>
                         </div>
                       </div>
                     </li>
