@@ -24,16 +24,16 @@ const Footer = () => {
     </div>
     <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
       <Link to="https://www.facebook.com/profile.php?id=100011605084249&mibextid=ZbWKwL">
-        <img src="../src/img/facebook.png" className="fill-current w-10 h-10" alt="facebook" />
+        <img src="facebook.png" className="fill-current w-10 h-10" alt="facebook" />
       </Link>
       <Link to="https://instagram.com/hein_thantzaw?igshid=ZDdkNTZiNTM=">
-        <img src="../src/img/instagram.png" className="fill-current w-10 h-10" alt="instagram"/>
+        <img src="instagram.png" className="fill-current w-10 h-10" alt="instagram"/>
       </Link>
       <Link to="https://github.com/HeinThantZaw28/">
-        <img src="../src/img/github.png" className="fill-current w-10 h-10" alt="github"/>
+        <img src="github.png" className="fill-current w-10 h-10" alt="github"/>
       </Link>
       <Link to="https://www.linkedin.com/in/double-k-73472a1a1">
-        <img src="../src/img/linkdin.png" className="fill-current w-10 h-10" alt="linkedin"/>
+        <img src="linkdin.png" className="fill-current w-10 h-10" alt="linkedin"/>
       </Link>
     </div>
   </footer>
