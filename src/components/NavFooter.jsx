@@ -5,7 +5,7 @@ import Nav from "./Nav";
 
 const NavFooter = ({ children }) => {
   return (
-    <div className="container mx-auto relative">
+    <div className="relative">
       <div className="drawer">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">

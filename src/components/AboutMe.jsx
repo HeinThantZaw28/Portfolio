@@ -74,7 +74,7 @@ const AboutMe = () => {
                   </div>
                 </div>
               </div>
-              <div className="text-sm md:grid md:grid-cols-12 sm:block mt-2 bg-slate-900 rounded ml-1 mr-1 py-4 px-2">
+              <div className="text-sm md:grid md:grid-cols-12 sm:block mt-2 bg-slate-900 rounded mx-1 py-4 px-2">
                 <div className="md:col-span-6 mb-3">
                   <h1 className=" text-2xl text-white mb-2">
                     Programming Skills
@@ -132,46 +132,43 @@ const AboutMe = () => {
                   </div>
                 </div>
               </div>
-              <div className="text-sm md:grid md:grid-cols-12 sm:block mt-2 bg-slate-900 rounded ml-1 mr-1 py-4 px-2">
-                <div className="md:col-span-6 mb-3">
-                  <h1 className=" text-2xl text-white mb-2">Education</h1>
-
-                  <ul className=" steps steps-vertical text-sm text-center sm:text-left">
-                    <li className="step step-primary">
-                      <div className="flex justify-between gap-4">
-                        <p className="pt-1">2018-2019</p>
-                        <div className="block text-white text-justify">
-                          <p>SQA Education,Scotland</p>
-                          <p>Diploma in Computing</p>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="step step-primary">
-                      <div className="flex justify-between gap-4">
-                        <p className="pt-1">2019-2020</p>
-                        <div className="block text-white text-justify">
-                          <p>University of Greenwich</p>
-                          <p>Business Information Technology</p>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="step step-primary"></li>
-                  </ul>
+              <div className="text-sm md:grid md:grid-cols-12 sm:block mt-2 rounded py-4 px-2 gap-x-4">
+                <div className="md:col-span-6 border border-slate-700 rounded px-3 py-2 mb-3">
+                  <h1 className="text-2xl text-white">Education</h1>
+                  <div>
+                    <h1 className="text-lg text-white">
+                      Scottish Qualification Authority
+                    </h1>
+                    <div className="pl-2">
+                      <p>Diploma In Computing</p>
+                      <p>2018-2019</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h1 className="text-lg text-white">
+                      University of Greenwich
+                    </h1>
+                    <div className="pl-2">
+                      <p>Business Information Technology</p>
+                      <p>2019-2020</p>
+                    </div>
+                  </div>
                 </div>
-                <div className="md:col-span-6 mb-3">
-                  <h1 className=" text-2xl text-white mb-2">Experiences</h1>
-                  <ul className="steps steps-vertical text-justify ">
-                    <li className="step step-primary">
-                      <div className="flex justify-between gap-4">
-                        <p className="pt-1">2022-now</p>
-                        <div className="block text-white text-justify">
-                          <p>A Bank</p>
-                          <p>Front-end Web Developer</p>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="step step-primary"></li>
-                  </ul>
+                <div className="md:col-span-6 border border-slate-700 rounded px-3 py-2 mb-3">
+                  <h1 className="text-2xl text-white">Experience</h1>
+                  <h1 className="text-lg text-white">Web Developer</h1>
+                  <div className="pl-2">
+                    <p>Frontend Developer</p>
+                    <p>2022-2023</p>
+                  </div>
+                </div>
+              </div>
+              <div className="text-sm md:grid md:grid-cols-12 sm:block mt-2 rounded py-4 px-2 gap-x-4">
+                <div className="md:col-span-6">
+
+                </div>
+                <div className="md:col-span-6">
+                  
                 </div>
               </div>
             </div>
