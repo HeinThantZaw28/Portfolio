@@ -5,24 +5,24 @@ const AboutMe = () => {
   return (
     <>
       <NavFooter>
-      <div className="container mx-auto mt-16">
+        <div className="container mx-auto mt-16">
           <div className="grid md:grid-cols-8 sm:grid-cols-12">
             <div className="md:col-span-1"></div>
             <div className="container mx-auto md:col-span-6 sm:col-span-full">
-              <h1 className="text-3xl mb-2 text-white">About Me</h1>
+              <h1 className="text-3xl mb-2 text-white ml-2">About Me</h1>
+              <div className="px-4 py-2">
+                <img
+                  src="https://tokyo-nextjs.vercel.app/img/slider/1.jpg"
+                  alt=""
+                  className="w-screen h-auto md:rounded-md"
+                />
 
-              <img
-                src="https://tokyo-nextjs.vercel.app/img/slider/1.jpg"
-                alt=""
-                className="w-screen h-auto md:rounded-md"
-              />
+                <h1 className="text-2xl text-white">Hein Thant Zaw</h1>
+                <h1 className="mb-2">Web Developer</h1>
+                <hr />
+              </div>
 
-              <h1 className="text-2xl text-white">Hein Thant Zaw</h1>
-              <h1 className="mb-2">Web Developer</h1>
-
-              <hr />
-
-              <div className=" text-justify indent-5 mb-2">
+              <div className=" text-justify indent-5 mb-2 py-4 px-2">
                 <p>
                   Hi, my name is Adriano Smith and I began using WordPress when
                   it first began. I’ve spent most of my waking hours for the
@@ -37,9 +37,10 @@ const AboutMe = () => {
                   complex integrations to require little-to-no maintenance while
                   running on their own for years.
                 </p>
+                <hr />
               </div>
-              <hr />
-              <div className=" text-sm md:grid md:grid-cols-12 mt-2 sm:block">
+
+              <div className=" text-sm md:grid md:grid-cols-12 mt-2 sm:block py-4 px-2">
                 <div className="md:col-span-6 flex">
                   <div className="justify-between text-white mr-2">
                     <h1>Birthday :</h1>
@@ -135,10 +136,10 @@ const AboutMe = () => {
                 <div className="md:col-span-6 mb-3">
                   <h1 className=" text-2xl text-white mb-2">Education</h1>
 
-                  <ul className="steps steps-vertical text-sm">
+                  <ul className=" steps steps-vertical text-sm text-center sm:text-left">
                     <li className="step step-primary">
                       <div className="flex justify-between gap-4">
-                        <p className="">2018-2019</p>
+                        <p className="pt-1">2018-2019</p>
                         <div className="block text-white text-justify">
                           <p>SQA Education,Scotland</p>
                           <p>Diploma in Computing</p>
@@ -147,7 +148,7 @@ const AboutMe = () => {
                     </li>
                     <li className="step step-primary">
                       <div className="flex justify-between gap-4">
-                        <p className="">2019-2020</p>
+                        <p className="pt-1">2019-2020</p>
                         <div className="block text-white text-justify">
                           <p>University of Greenwich</p>
                           <p>Business Information Technology</p>
@@ -159,10 +160,10 @@ const AboutMe = () => {
                 </div>
                 <div className="md:col-span-6 mb-3">
                   <h1 className=" text-2xl text-white mb-2">Experiences</h1>
-                  <ul className="steps steps-vertical text-justify">
+                  <ul className="steps steps-vertical text-justify ">
                     <li className="step step-primary">
                       <div className="flex justify-between gap-4">
-                        <p className="">2022-now</p>
+                        <p className="pt-1">2022-now</p>
                         <div className="block text-white text-justify">
                           <p>A Bank</p>
                           <p>Front-end Web Developer</p>

@@ -11,7 +11,8 @@ const Nav = () => {
     setDarkMode(!darkMode);
   };
   return (
-    <div className="navbar bg-base-100 fixed">
+    
+    <nav className="navbar bg-base-300 sticky w-full top-0">
       <div className="navbar-start">
         
           <label
@@ -56,7 +57,7 @@ const Nav = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
